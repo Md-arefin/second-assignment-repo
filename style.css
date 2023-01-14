@@ -201,3 +201,79 @@ ul>li {
     bottom: 5rem;
     right: 2rem;
 }
+/***************************************
+           forth section
+****************************************/
+.animation__section{
+padding-top: 15rem;
+}
+.animation__title-primary{
+    font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+.animation__text-primary{
+   color: var(--dark-03);
+   margin-bottom: 8rem;
+}
+.animation__container{
+    display: flex;    
+}
+
+.animation{
+    width: 250px;
+    height: 250px;
+    border: 2px solid var(--light-orange) ;
+    border-radius: 5px;
+    margin: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 50px 0 0 95px;
+}
+.animation__title{
+    font-size: 45px;
+   text-align: center;
+}
+.animation__text{
+    font-size: 20px;
+    color: var(--dark-03);
+    text-align: center;
+}
+/********************************
+5th section
+*********************************/
+.animation__title-secondary{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+}
+.animation__text-tertiary{
+    text-align: center;
+    color: var(--dark-03);
+    margin-bottom: 8rem;
+}
+.img__section-primary{
+    display: flex;
+    gap: 50px;
+}
+.img__section-primary{
+    margin-top: 50px;
+    width: 150px;
+}
+/********************************
+footer section
+*********************************/
+.footer{
+    width: 100%;
+    height: 100px;
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 2.5rem 8rem;
+    background-color: var(--pale-orange);
+    text-align: center;
+}
+/* (Ami align-item, justify-content die center e ante pari na. amr kon vuler jonno ei rokom hoy ?) */
