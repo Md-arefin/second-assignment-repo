@@ -3,59 +3,74 @@
     --orange: #FF900E;
     --light-orange: #FF900E1A;
     --pale-orange: #FFF4E7;
-    --dark-03:#727272;
+    --dark-03: #727272;
 }
-body{
+
+body {
     font-family: var(--primary-font);
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1550px;
     margin: 0 auto;
     padding: 0 8rem;
 }
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
 /********************************
         nav style start
 ********************************/
-.nav__section{
+.nav__section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
 }
-.section__primary{
+
+.section__primary {
     background-color: var(--pale-orange);
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 1.5rem;
     list-style: none;
 }
-h1{
-  font-size: 2.8rem;
-  font-weight: 700;
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
 }
-ul> li{
+
+ul>li {
     font-size: 18px;
     font-weight: 500;
 }
 
-.section__title{
+.section__title {
     font-size: 4rem;
-    font-weight:700 ;
+    font-weight: 700;
     text-align: center;
     padding-top: 6rem;
 }
-.section__text{
-    padding:2rem 8rem ;
+
+.section__text {
+    padding: 2rem 8rem;
     text-align: center;
 }
-.btn__primary{
+
+.btn__primary {
     font-size: 20px;
     font-weight: 600;
     color: var(--pale-orange);
@@ -64,51 +79,53 @@ ul> li{
     border-radius: 5px;
     width: 11.25rem;
     height: 4rem;
-    margin:0 0 3rem 28rem;
+    margin: 0 0 3rem 28rem;
 }
-.banner__img > img{
-    width: 100%;
-    height: 100%;
+
+.banner__img {
     margin-left: 4px;
     padding-bottom: 30px;
 }
+
 /***************************************
            second section
 ****************************************/
-.grid__container{
+.grid__container {
     display: flex;
     gap: 5px;
     margin: 5rem 0;
 }
-.img__section{
+
+.img__section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;  
+    gap: 20px;
 }
-.text__container{
-margin-top: 13rem;
-margin-left: 4rem;
-}
-.section__title-secondary{
+.section__title-secondary {
     font-size: 2.8rem;
+    margin: 5rem 1rem .5rem 1rem;
 }
 
-.gray{
+.gray {
     color: var(--dark-03);
     font-weight: 400;
 }
-.orange{
+
+.orange {
     color: var(--orange);
     font-weight: 700;
 }
-.bold{
+
+.bold {
     font-weight: 700;
 }
-.section__text-secondary{
-    padding: 2rem 0;
-    color: var(--dark-03) ;
+
+.section__text-secondary {
+    margin: .5rem 1rem .5rem 1rem;
+    color: var(--dark-03);
 }
-.btn__primary-secondary{
+
+.btn__primary-secondary {
     font-size: 20px;
     font-weight: 600;
     color: var(--pale-orange);
@@ -117,5 +134,70 @@ margin-left: 4rem;
     border-radius: 5px;
     width: 11.25rem;
     height: 4rem;
-    margin-left: 0;
+    margin: .5rem 1rem .5rem 1rem;
+}
+
+/***************************************
+           Third section
+****************************************/
+.flex__container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex__title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    border-left: 5px solid;
+    width: 500px;
+    border-color: var(--orange);
+    padding: 25px 0 25px 25px;
+}
+
+.flex__title__text {
+    color: var(--dark-03);
+    padding: 25px 0;
+    width: 500px;
+}
+
+.flex__card {
+    width: 38rem;
+    height: 8rem;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 4px rgba(134, 127, 127, 0.171);
+}
+
+.flex__card__title {
+    padding: 15px 0 10px 25px;
+}
+
+.flex__card__text {
+    color: var(--dark-03);
+    padding: 5px 0 10px 22px;
+}
+
+.flex__img {
+    width: 600px;
+    height: 850px;
+
+}
+
+.btn__primary-tertiary {
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--pale-orange);
+    background-color: var(--orange);
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    padding: 25px;
+    position: relative;
+    bottom: 5rem;
+    right: 2rem;
 }
