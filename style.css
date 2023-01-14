@@ -1,0 +1,12 @@
+:root {
+    --primary-font: 'Work Sans', sans-serif;
+    --orange: #FF900E;
+    --light-orange: #FF900E1A;
+    --pale-orange: #FFF4E7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
