@@ -101,6 +101,7 @@ ul>li {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+
 .section__title-secondary {
     font-size: 2.8rem;
     margin: 5rem 1rem .5rem 1rem;
@@ -188,7 +189,7 @@ ul>li {
 }
 
 .btn__primary-tertiary {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 800;
     color: var(--pale-orange);
     background-color: var(--orange);
@@ -196,78 +197,137 @@ ul>li {
     border-radius: 5px;
     width: 250px;
     height: 200px;
-    padding: 25px;
+    padding: 25px 0;
     position: relative;
     bottom: 5rem;
     right: 2rem;
 }
+
+.btn_title {
+    font-size: 45px;
+}
+
 /***************************************
            forth section
 ****************************************/
-.animation__section{
-padding-top: 15rem;
+.animation__section {
+    padding-top: 15rem;
 }
-.animation__title-primary{
+
+.animation__title-primary {
     font-size: 45px;
     font-weight: 800;
     padding-bottom: 1rem;
 }
-.animation__text-primary{
-   color: var(--dark-03);
-   margin-bottom: 8rem;
-}
-.animation__container{
-    display: flex;    
+
+.animation__text-primary {
+    color: var(--dark-03);
+    margin-bottom: 4rem;
 }
 
-.animation{
+.animation__container {
+    display: flex;
+}
+
+.animation {
     width: 250px;
     height: 250px;
-    border: 2px solid var(--light-orange) ;
+    border: 2px solid var(--light-orange);
     border-radius: 5px;
-    margin: 20px;
+    margin: 10px 55px 0 0;
+    transition: transform 5s;
 }
-.icon{
+
+.icon {
     width: 50px;
     height: 50px;
     margin: 50px 0 0 95px;
 }
-.animation__title{
+
+.animation__title {
     font-size: 45px;
-   text-align: center;
+    text-align: center;
 }
-.animation__text{
+
+.animation__text {
     font-size: 20px;
     color: var(--dark-03);
     text-align: center;
 }
+
+.animation:hover {
+    background-color: var(--orange);
+    color: var(--pale-orange);
+    transform: scale(1.5, 1.5);
+}
+
 /********************************
-5th section
+           5th section
 *********************************/
-.animation__title-secondary{
+.animation__title-secondary {
     text-align: center;
     font-size: 45px;
     font-weight: 800;
     padding-bottom: 1rem;
     margin-top: 5rem;
 }
-.animation__text-tertiary{
+
+.animation__text-tertiary {
     text-align: center;
     color: var(--dark-03);
-    margin-bottom: 8rem;
+    margin-bottom: 3rem;
 }
-.img__section-primary{
+
+.img__section-primary {
     display: flex;
-    gap: 50px;
+    gap: 100px;
+    /* justify-content: space-evenly; */
 }
-.img__section-primary{
-    margin-top: 50px;
+
+.img__section-primary {
+    margin: 50px;
     width: 150px;
+    filter: grayscale(140);
+    /* align-items: center; */
 }
+/********************************
+           6th section
+*********************************/
+.bonus__section{
+    display: flex;
+    gap: 10px;
+}
+.bonus__section{
+    height: 15rem;
+    padding:60px 0 20px 10px;
+    margin-bottom: 5rem;
+    border: 2px solid var(--orange);
+    background-color: var(--light-orange);
+    animation: zoom-in-zoom-out 5s ease infinite;
+
+}
+.bonus__banner{
+    padding-right: 5px;
+    width: 90px;
+    height: 90px;
+    border: 1 solid seashell;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1,1);
+    }
+    50% {
+      transform: scale(1.3, 1.3);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
 /********************************
 footer section
 *********************************/
-.footer{
+.footer {
     width: 100%;
     height: 100px;
     max-width: 1550px;
@@ -276,4 +336,7 @@ footer section
     background-color: var(--pale-orange);
     text-align: center;
 }
-/* (Ami align-item, justify-content die center e ante pari na. amr kon vuler jonno ei rokom hoy ?) */
+
+/**********************************************************
+(Ami align-item, justify-content dyee center/onno value kaj korate pari na. amr kon vuler jonno ei rokom hoitese ?) 
+******************************************************************/
