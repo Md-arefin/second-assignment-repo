@@ -290,37 +290,43 @@ ul>li {
     filter: grayscale(140);
     /* align-items: center; */
 }
+
 /********************************
            6th section
 *********************************/
-.bonus__section{
+.bonus__section {
     display: flex;
     gap: 10px;
 }
-.bonus__section{
+
+.bonus__section {
     height: 15rem;
-    padding:60px 0 20px 10px;
+    padding: 60px 0 20px 10px;
     margin: 8rem 0;
     border: 2px solid var(--orange);
     background-color: var(--light-orange);
     animation: zoom-in-zoom-out 5s ease infinite;
 }
-.bonus__banner{
+
+.bonus__banner {
     padding-right: 5px;
     width: 90px;
     height: 90px;
 }
+
 @keyframes zoom-in-zoom-out {
     0% {
-      transform: scale(1,1);
+        transform: scale(1, 1);
     }
+
     50% {
-      transform: scale(1.3, 1.3);
+        transform: scale(1.3, 1.3);
     }
+
     100% {
-      transform: scale(1, 1);
+        transform: scale(1, 1);
     }
-  }
+}
 
 /********************************
 footer section
@@ -346,117 +352,138 @@ footer section
         margin: 0 auto;
         padding: 0 25px;
     }
-.nav__section,nav ul{
-    flex-direction: column;
-}
-h1{
-    font-size: 1.5rem;
-}
-.section__title{
-    font-size: 1.4rem;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 2rem;
-}
-.section__text {
-    padding:10px 20px;
-    text-align: center;
-}
-.btn__primary {
-    font-size: 18px;
-    width: 9rem;
-    height: 2.5rem;
-    margin: 0 0 15px 140px;
-}
-.banner__img {
-    width: 400px;
-    margin-left: 65px;
-    padding-bottom: 30px;
-}
-.grid__container {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin: 5rem 0;
-}
-.img__section {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-}
-.flex__container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40px;
-}
-.flex__title {
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-left: 40px;
-    border-left: 5px solid;
-    width: 300px;
-    border-color: var(--orange);
-    padding: 10px 0 25px 25px;
-}
-.flex__title__text {
-    color: var(--dark-03);
-    padding: 25px 0;
-    width: 400px;
-    text-align: center;
-    margin-left: 20px;
-}
-.flex__card {
-    width: 480px;
-    height: 8.5rem;
-    margin-bottom: 25px;
-    margin-right: 25px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px 4px rgba(134, 127, 127, 0.171);
-}
-.flex__img {
-    width: 500px;
-    height: 750px;
-    margin-right: 15px;
-}
-.animation__section {
-    padding-top: 11.5rem;
-}
-.animation__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.animation__title-secondary {
-    margin-top: 1.5rem;
-}
-.img__section-primary {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-.bonus__section{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    gap: 10px;
-}
-.bonus__section{
-    height: 25rem;
-    width: 400px;
-    padding:10px ;
-    margin-bottom: 8rem;
-    margin-top: 5rem;
-}
-.bonus__banner{
-    margin: 0 auto;
-}
 
-/**********************************************************
+    .nav__section,
+    nav ul {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .section__title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .section__text {
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .btn__primary {
+        font-size: 18px;
+        width: 9rem;
+        height: 2.5rem;
+        margin: 0 0 15px 140px;
+    }
+
+    .banner__img {
+        width: 400px;
+        margin-left: 65px;
+        padding-bottom: 30px;
+    }
+
+    .grid__container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 5rem 0;
+    }
+
+    .img__section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .flex__container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+    }
+
+    .flex__title {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-left: 40px;
+        border-left: 5px solid;
+        width: 300px;
+        border-color: var(--orange);
+        padding: 10px 0 25px 25px;
+    }
+
+    .flex__title__text {
+        color: var(--dark-03);
+        padding: 25px 0;
+        width: 400px;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .flex__card {
+        width: 480px;
+        height: 8.5rem;
+        margin-bottom: 25px;
+        margin-right: 25px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px 4px rgba(134, 127, 127, 0.171);
+    }
+
+    .flex__img {
+        width: 500px;
+        height: 750px;
+        margin-right: 15px;
+    }
+
+    .animation__section {
+        padding-top: 11.5rem;
+    }
+
+    .animation__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .animation__title-secondary {
+        margin-top: 1.5rem;
+    }
+
+    .img__section-primary {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .bonus__section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .bonus__section {
+        height: 25rem;
+        width: 400px;
+        padding: 10px;
+        margin-bottom: 8rem;
+        margin-top: 5rem;
+    }
+
+    .bonus__banner {
+        margin: 0 auto;
+    }
+
+    /**********************************************************
 (Ami align-item, justify-content dyee center/onno value kaj korate pari na. amr kon vuler jonno ei rokom hoitese ?) 
 ******************************************************************/
